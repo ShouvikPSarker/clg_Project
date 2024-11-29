@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Management - MONEY MAVEN</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="budgeting.html">Budgeting</a></li>
+                <li><a href="forecasting.html">Forecasting</a></li>
+                <li><a href="finance.html">Personal Finance</a></li>
+                <li><a href="tax.html">Tax Planning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Personal Finance Management: Track Every Penny for Financial Freedom</h1>
+
+        <!-- Daily Expenses Form -->
+        <section class="form-section">
+            <h2>Daily Expenses Tracker</h2>
+            <form id="daily-expenses-form">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <h3>Expenses by Category</h3>
+                <!-- Food Section -->
+                <fieldset>
+                    <legend>Food</legend>
+                    <label for="food-breakfast">Breakfast:</label>
+                    <input type="number" id="food-breakfast" name="food-breakfast" placeholder="Amount spent on breakfast" required>
+
+                    <label for="food-lunch">Lunch:</label>
+                    <input type="number" id="food-lunch" name="food-lunch" placeholder="Amount spent on lunch" required>
+
+                    <label for="food-dinner">Dinner:</label>
+                    <input type="number" id="food-dinner" name="food-dinner" placeholder="Amount spent on dinner" required>
+                </fieldset>
+
+                <!-- Transport Section -->
+                <fieldset>
+                    <legend>Transport</legend>
+                    <label for="transport-bus">Bus/Train:</label>
+                    <input type="number" id="transport-bus" name="transport-bus" placeholder="Amount spent on public transport" required>
+
+                    <label for="transport-fuel">Fuel:</label>
+                    <input type="number" id="transport-fuel" name="transport-fuel" placeholder="Amount spent on fuel" required>
+
+                    <label for="transport-others">Other Transport:</label>
+                    <input type="number" id="transport-others" name="transport-others" placeholder="Other transport expenses" required>
+                </fieldset>
+
+                <!-- Utilities Section -->
+                <fieldset>
+                    <legend>Utilities</legend>
+                    <label for="utilities-electricity">Electricity:</label>
+                    <input type="number" id="utilities-electricity" name="utilities-electricity" placeholder="Electricity expense" required>
+
+                    <label for="utilities-water">Water:</label>
+                    <input type="number" id="utilities-water" name="utilities-water" placeholder="Water expense" required>
+
+                    <label for="utilities-internet">Internet:</label>
+                    <input type="number" id="utilities-internet" name="utilities-internet" placeholder="Internet expense" required>
+                </fieldset>
+
+                <!-- Miscellaneous Section -->
+                <fieldset>
+                    <legend>Miscellaneous</legend>
+                    <label for="misc-entertainment">Entertainment:</label>
+                    <input type="number" id="misc-entertainment" name="misc-entertainment" placeholder="Amount spent on entertainment" required>
+
+                    <label for="misc-others">Other Expenses:</label>
+                    <input type="number" id="misc-others" name="misc-others" placeholder="Other miscellaneous expenses" required>
+                </fieldset>
+
+                <label for="daily-savings-goal">Daily Savings Goal:</label>
+                <input type="number" id="daily-savings-goal" name="daily-savings-goal" placeholder="Enter your savings goal">
+
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Enter additional details"></textarea>
+
+                <button type="submit">Submit Daily Expenses</button>
+            </form>
+        </section>
+        <!-- Comprehensive Finance Form -->
+        <section class="form-section">
+            <h2>Comprehensive Finance Management</h2>
+            <form id="comprehensive-finance-form">
+                <label for="monthly-income">Monthly Income:</label>
+                <input type="number" id="monthly-income" name="monthly-income" placeholder="Enter your monthly income" required>
+
+                <label for="recurring-expenses">Recurring Expenses:</label>
+                <textarea id="recurring-expenses" name="recurring-expenses" rows="3" placeholder="List your recurring expenses"></textarea>
+
+                <label for="short-term-goals">Short-Term Goals:</label>
+                <textarea id="short-term-goals" name="short-term-goals" rows="3" placeholder="List your short-term financial goals"></textarea>
+
+                <label for="long-term-goals">Long-Term Goals:</label>
+                <textarea id="long-term-goals" name="long-term-goals" rows="3" placeholder="List your long-term financial goals"></textarea>
+
+                <button type="submit">Submit Finance Details</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="support.html">Customer Support</a></li>
+            <li><a href="social-media.html">Social Media Handles</a></li>
+        </ul>
+    </footer>
+
+    <script src="finance.js"></script>
+</body>
+</html>

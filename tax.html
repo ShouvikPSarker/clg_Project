@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tax Planning - MONEY MAVEN</title>
+    <link rel="stylesheet" href="budget.css">
 </head>
 <body>
-    
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="budgeting.html">Budgeting</a></li>
+                <li><a href="forecasting.html">Forecasting</a></li>
+                <li><a href="finance.html">Personal Finance</a></li>
+                <li><a href="tax.html">Tax Planning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Tax Planning: Simplify Your Taxes with Smart Planning</h1>
+
+        <!-- Tax Planning Form -->
+        <section class="form-section">
+            <h2>Comprehensive Tax Planning</h2>
+            <form id="tax-planning-form">
+                <!-- User Profile Section -->
+                <fieldset>
+                    <legend>User Profile</legend>
+                    <label for="annual-income">Annual Income (₹):</label>
+                    <input type="number" id="annual-income" name="annual-income" placeholder="Enter your annual income" required>
+
+                    <label for="tax-regime">Tax Regime:</label>
+                    <select id="tax-regime" name="tax-regime" required>
+                        <option value="old">Old Regime</option>
+                        <option value="new">New Regime</option>
+                    </select>
+                </fieldset>
+
+                <!-- Taxable Deductions Section -->
+                <fieldset>
+                    <legend>Taxable Deductions</legend>
+                    <label for="deduction-80c">Section 80C (₹):</label>
+                    <input type="number" id="deduction-80c" name="deduction-80c" placeholder="e.g., ELSS, PPF, etc.">
+
+                    <label for="deduction-80d">Section 80D (₹):</label>
+                    <input type="number" id="deduction-80d" name="deduction-80d" placeholder="e.g., Medical Insurance">
+
+                    <label for="other-deductions">Other Deductions (₹):</label>
+                    <input type="number" id="other-deductions" name="other-deductions" placeholder="Other applicable deductions">
+                </fieldset>
+
+                <!-- Investment Contributions Section -->
+                <fieldset>
+                    <legend>Investment Contributions</legend>
+                    <label for="pf-contribution">Provident Fund (PF) Contribution (₹):</label>
+                    <input type="number" id="pf-contribution" name="pf-contribution" placeholder="PF contributions">
+
+                    <label for="nps-contribution">NPS Contribution (₹):</label>
+                    <input type="number" id="nps-contribution" name="nps-contribution" placeholder="NPS contributions">
+
+                    <label for="other-investments">Other Investments (₹):</label>
+                    <input type="number" id="other-investments" name="other-investments" placeholder="Other eligible investments">
+                </fieldset>
+
+                <!-- Assets and Liabilities Section -->
+                <fieldset>
+                    <legend>Assets and Liabilities</legend>
+                    <label for="house-value">House Value (₹):</label>
+                    <input type="number" id="house-value" name="house-value" placeholder="Enter house value">
+
+                    <label for="car-value">Car Value (₹):</label>
+                    <input type="number" id="car-value" name="car-value" placeholder="Enter car value">
+
+                    <label for="land-value">Land Value (₹):</label>
+                    <input type="number" id="land-value" name="land-value" placeholder="Enter land value">
+
+                    <label for="loans-outstanding">Outstanding Loans (₹):</label>
+                    <input type="number" id="loans-outstanding" name="loans-outstanding" placeholder="Enter total loans outstanding">
+                </fieldset>
+
+                <!-- Additional Notes -->
+                <label for="tax-notes">Additional Notes:</label>
+                <textarea id="tax-notes" name="tax-notes" rows="3" placeholder="Enter any additional information"></textarea>
+
+                <button type="submit">Submit Tax Details</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="support.html">Customer Support</a></li>
+            <li><a href="social-media.html">Social Media Handles</a></li>
+        </ul>
+    </footer>
+
+    <script src="tax.js"></script>
 </body>
 </html>

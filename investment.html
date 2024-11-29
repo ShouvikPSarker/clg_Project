@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Planning - MONEY MAVEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="budgeting.html">Budgeting</a></li>
+                <li><a href="forecasting.html">Forecasting</a></li>
+                <li><a href="finance.html">Personal Finance</a></li>
+                <li><a href="tax.html">Tax Planning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Investment Planning: Maximize Your Wealth Through Smart Investments</h1>
+
+        <!-- User Profile Form -->
+        <section class="form-section">
+            <h2>User Profile</h2>
+            <form id="user-profile-form">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+                <label for="risk-appetite">Risk Appetite:</label>
+                <select id="risk-appetite" name="risk-appetite">
+                    <option value="low">Low</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="high">High</option>
+                </select>
+
+                <label for="investment-goal">Investment Goal:</label>
+                <select id="investment-goal" name="investment-goal">
+                    <option value="retirement">Retirement</option>
+                    <option value="education">Education</option>
+                    <option value="vacation">Vacation</option>
+                    <option value="house">Buying a House</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <button type="submit">Submit User Profile</button>
+            </form>
+        </section>
+
+        <!-- Current Investments Form -->
+        <section class="form-section">
+            <h2>Current Investments</h2>
+            <form id="current-investments-form">
+                <label for="stocks">Stock Portfolio Value:</label>
+                <input type="number" id="stocks" name="stocks" placeholder="Enter stock portfolio value">
+
+                <label for="mutual-funds">Mutual Funds Value:</label>
+                <input type="number" id="mutual-funds" name="mutual-funds" placeholder="Enter mutual funds value">
+
+                <label for="fixed-deposits">Fixed Deposits Value:</label>
+                <input type="number" id="fixed-deposits" name="fixed-deposits" placeholder="Enter fixed deposits value">
+
+                <label for="gold">Gold Investment Value:</label>
+                <input type="number" id="gold" name="gold" placeholder="Enter gold investment value">
+
+                <button type="submit">Submit Current Investments</button>
+            </form>
+        </section>
+
+        <!-- Financial Goals Form -->
+        <section class="form-section">
+            <h2>Financial Goals</h2>
+            <form id="financial-goals-form">
+                <label for="goal-amount">Target Amount:</label>
+                <input type="number" id="goal-amount" name="goal-amount" placeholder="Enter your target amount" required>
+
+                <label for="time-horizon">Time Horizon (Years):</label>
+                <input type="number" id="time-horizon" name="time-horizon" placeholder="Enter the time frame in years" required>
+
+                <label for="additional-goal-info">Additional Information:</label>
+                <textarea id="additional-goal-info" name="additional-goal-info" rows="4" placeholder="Enter any additional details"></textarea>
+
+                <button type="submit">Submit Financial Goals</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="support.html">Customer Support</a></li>
+            <li><a href="social-media.html">Social Media Handles</a></li>
+        </ul>
+    </footer>
+
+    <script src="invest.js"></script>
+</body>
+</html>

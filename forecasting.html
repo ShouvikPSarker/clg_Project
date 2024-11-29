@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecasting - MONEY MAVEN</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="budgeting.html">Budgeting</a></li>
+                <li><a href="investment.html">Investment Planning</a></li>
+                <li><a href="finance.html">Personal Finance</a></li>
+                <li><a href="tax.html">Tax Planning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Forecasting: Predict Your Financial Future with Confidence</h1>
+
+        <!-- Historical Income Data Form -->
+        <section class="form-section">
+            <h2>Historical Income Data</h2>
+            <form id="income-data-form">
+                <label for="income-monthly-data">Enter Monthly Income Data (Last 6-12 Months):</label>
+                <textarea id="income-monthly-data" name="income-monthly-data" rows="6" placeholder="E.g., January: 5000, February: 4500, ..."></textarea>
+
+                <label for="income-upload">Or Upload a CSV File:</label>
+                <input type="file" id="income-upload" name="income-upload" accept=".csv">
+
+                <button type="submit">Submit Income Data</button>
+            </form>
+        </section>
+
+        <!-- Historical Expense Data Form -->
+        <section class="form-section">
+            <h2>Historical Expense Data</h2>
+            <form id="expense-data-form">
+                <label for="expense-categories">Categorized Expense Data (Last 6-12 Months):</label>
+                <textarea id="expense-categories" name="expense-categories" rows="6" placeholder="E.g., Rent: 1500, Grocery: 400, ..."></textarea>
+
+                <label for="expense-upload">Or Upload a CSV File:</label>
+                <input type="file" id="expense-upload" name="expense-upload" accept=".csv">
+
+                <button type="submit">Submit Expense Data</button>
+            </form>
+        </section>
+
+        <!-- Saving Trends Form -->
+        <section class="form-section">
+            <h2>Saving Trends</h2>
+            <form id="saving-trends-form">
+                <label for="saving-trends">Describe Your Saving Trends:</label>
+                <textarea id="saving-trends" name="saving-trends" rows="4" placeholder="E.g., Saved 20% of income every month"></textarea>
+
+                <button type="submit">Submit Saving Trends</button>
+            </form>
+        </section>
+
+        <!-- Financial Goals Form -->
+        <section class="form-section">
+            <h2>Financial Goals</h2>
+            <form id="financial-goals-form">
+                <label for="financial-goal-type">Choose a Goal Type:</label>
+                <select id="financial-goal-type" name="financial-goal-type">
+                    <option value="house">Buying a House</option>
+                    <option value="retirement">Retirement Savings</option>
+                    <option value="vacation">Dream Vacation</option>
+                    <option value="education">Higher Education</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="goal-amount">Target Amount (Numeric Input):</label>
+                <input type="number" id="goal-amount" name="goal-amount" placeholder="Enter your target amount" required>
+
+                <label for="goal-period">Desired Period (Months):</label>
+                <input type="number" id="goal-period" name="goal-period" placeholder="Enter the time frame in months" required>
+
+                <button type="submit">Submit Financial Goals</button>
+            </form>
+        </section>
+
+        <!-- Additional Form Section -->
+        <section class="form-section">
+            <h2>Additional Information</h2>
+            <form id="additional-info-form">
+                <label for="custom-data">Custom Data Entry:</label>
+                <textarea id="custom-data" name="custom-data" rows="4" placeholder="Enter any additional information that helps forecasting"></textarea>
+
+                <button type="submit">Submit Additional Info</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="support.html">Customer Support</a></li>
+            <li><a href="social-media.html">Social Media Handles</a></li>
+        </ul>
+    </footer>
+
+    <script src="forecast.js"></script>
+</body>
+</html>
